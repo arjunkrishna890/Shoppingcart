@@ -1,0 +1,66 @@
+.messages {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+   
+
+  
+    .container {
+      width: 1400px;
+      margin-left: 4rem;
+      padding: 50px 0px;
+  
+      .title {
+        display: flex;
+        justify-content: space-between;
+  
+        button {
+          background-color: #1dbf73;
+          color: white;
+          font-weight: 500;
+          border: none;
+          padding: 10px;
+          cursor: pointer;
+        }
+      }
+  
+      table {
+        background-color: hwb(0 91% 8% / 0.059);
+        width: 90%;
+        box-shadow: rgba(251, 251, 251, 0.792) 0px 3px 8px;
+        padding: 10px;
+    
+  
+        tr {
+          height: 100px;
+          th {
+            text-align: left;
+          }
+          td {
+            padding: 10px;
+  
+            &:first-child {
+              font-weight: 500;
+            }
+            
+            &:nth-child(2),
+            &:nth-child(3) {
+              color: gray;
+            }
+          }
+  
+          button {
+            background-color: #1dbf73;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+          }
+  
+          &.active {
+            background-color: #1dbf730f;
+          }
+        }
+      }
+    }
+  }

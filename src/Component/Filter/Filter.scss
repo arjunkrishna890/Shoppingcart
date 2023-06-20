@@ -1,0 +1,29 @@
+.filter{
+    background-color: #292522;
+    color :white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 0;
+    margin: 10px;
+    min-height: 100%;
+    
+
+    .filter-title{
+         font-size: 30px;
+         color:#e21b5a;
+    }
+ 
+    span{
+         padding-bottom: 20px;
+    }
+    button{
+        width: 120px;
+        height: 30px;
+        border: none;
+        background-color: #f57576;
+        cursor: pointer;
+        
+    }   
+}
